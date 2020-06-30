@@ -1,0 +1,51 @@
+body{
+	font-family: Verdana, Arial, Tahoma, Serif;
+	font-style: oblique;
+	background-color: khaki;
+	color: black;
+	font-weight: bold;
+}
+
+.row{
+	width: 100%
+}
+
+section article article{
+	background-color: hsl(39, 100%, 50%);
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	padding: 0px;
+	border: 1px solid black;
+}
+
+h3{
+	width: 100px;
+	text-align: center;
+	float: right;
+	margin: 0px;
+	padding: 3px;
+	border: 2px solid black;
+	font-size: 125%;
+}
+
+section > article {
+	margin-bottom: 20px;
+}
+
+h1{
+	font-size: 175%;
+	background-color: orange;
+	width: 200px;
+	border: 3px solid black;
+}
+
+#one {
+	background-color: mediumseagreen;
+}
+#two {
+	background-color: cadetblue;
+}
+#three {
+	background-color: coral;
+}
