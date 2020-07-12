@@ -1,0 +1,63 @@
+body{
+	font-family: Verdana, Arial, Tahoma, Serif;
+	font-style: oblique;
+	background-color: darkorange;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+section h1 {
+	background-color: yellow;
+	width: 300px;
+	margin-top: 20px;
+	border: 2px solid black; 
+}
+
+h3{
+	margin: 0px;
+	padding: 5px;
+	border:2px solid black;
+	background-color: yellow;
+	border-radius: 10px;
+
+}
+article {
+	border:2px solid black;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: mediumseagreen;
+}
+
+
+
+
+ 	
+ 
+ header {
+ 	background-color: darkcyan;
+ 	border-top: 3px solid black;
+ 	border-bottom: 3px solid black;
+
+ }
+.navbar-toggler{
+ 	
+ 	background-color: yellow;
+ 	border: 1px solid black;
+
+ }
+ .navbar-toggler:hover {
+ 	background-color: green;
+ 	border: 2px solid black;
+
+ }
+ nav li{
+ 	background-color: yellow;
+ 	border: 1px solid black;
+ 	text-align: center;
+ 	margin-bottom: 5px;
+ }
+ a h1 {
+ 	font-size: 200%;
+ }
