@@ -12,7 +12,9 @@ section h1 {
 	background-color: yellow;
 	width: 300px;
 	margin-top: 20px;
-	border: 2px solid black; 
+	border: 3.5px solid black;
+    border-radius: 10px;
+    
 }
 
 h3{
@@ -44,7 +46,7 @@ article {
 .navbar-toggler{
  	
  	background-color: yellow;
- 	border: 1px solid black;
+ 	border: 2px solid black;
 
  }
  .navbar-toggler:hover {
