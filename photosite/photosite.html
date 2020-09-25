@@ -16,6 +16,7 @@
            
             background-color: mediumspringgreen;
             margin: 0;
+            
             }
         
         *{
@@ -90,6 +91,7 @@
              /*  position: absolute;
                 left: 0;
                 top: 0; */
+           
           display: block;
          margin: 0;
             
@@ -111,6 +113,31 @@
                 font-family: Times New Roman Georgia sans-serif;
                 margin-top: 50px;
             }
+        /* media queries */
+        @media screen and (max-width: 765px)
+        {
+           div h1 {
+                font-size: 2em;
+                
+            }
+            div>svg {
+                width: 8em;
+                height: 8em;
+            }
+            div>p {
+                font-size: 1em;
+            }
+            .navibar {
+                height: 60px;
+            }
+            .media{
+                width: 3em!important;
+                height: 3em!important;
+            }
+            nav>a>p{
+               display: none;
+            }
+        }
         
     </style>
     
@@ -119,7 +146,7 @@
     <div class="navibar">
     <div class="container">  
     <nav>
-       <a href="photosite.html"><svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <a href="photosite.html"><svg class="media" width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
   <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
 </svg> </a> 
